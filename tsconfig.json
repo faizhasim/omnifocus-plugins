@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "lib": ["es2019"],
+    "target": "ES2019"
+  },
+  "include": ["src/**/*"]
+}

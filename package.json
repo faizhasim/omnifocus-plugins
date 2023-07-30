@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.6"
+	},
+	"scripts": {
+		"build": "tsc && for file in lib/*.js; do mv -- \"$file\" \"${file%.js}.omnijs\"; done"
+	}
+}
